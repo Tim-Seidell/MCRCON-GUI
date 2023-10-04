@@ -1,0 +1,61 @@
+[
+    {
+        "tab": "IanStromski",
+        "commands": [
+            {
+                "name": "Say Hello",
+                "command": "/msg BroffessorSwol Hello"
+            },
+            {
+                "name": "Say Goodbye",
+                "command": "/msg BroffessorSwol Goodbye"
+            },
+            {
+                "name": "Night Vision",
+                "command": "/effect give BroffessorSwol minecraft:night_vision 999 1 true"
+            },
+            {
+                "name": "Clear",
+                "command": "/effect clear BroffessorSwol"
+            },
+            {
+                "name": "Say Test",
+                "command": "/msg BroffessorSwol Test"
+            }
+        ]
+    },
+    {
+        "tab": "BroffessorSwol",
+        "commands": [
+            {
+                "name": "Night Vision",
+                "command": "/effect give BroffessorSwol minecraft:night_vision 999 1 true"
+            },
+            {
+                "name": "Clear",
+                "command": "/effect clear BroffessorSwol"
+            },
+            {
+                "name": "Say Poop",
+                "command": "/msg BroffessorSwol Poop"
+            },
+            {
+                "name": "Get Coords",
+                "command": "/tp BroffessorSwol ~ ~ ~"
+            },
+            {
+                "name": "TP Mansion",
+                "command": "/tp BroffessorSwol -987 74 3296"
+            }
+        ]
+    },
+    {
+        "tab": "Invorn",
+        "commands": [
+            {
+                "name": "Say Test",
+                "command": "/msg BroffessorSwol Test"
+            }
+        ]
+    }
+]
